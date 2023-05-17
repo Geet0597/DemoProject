@@ -1,0 +1,25 @@
+
+.download{
+  position: fixed !important;
+  bottom: 15px !important;
+}
+canvas{
+  width: calc(100% - 60px);
+}
+
+.fullscreen-enabled {
+  background: #fff;
+}
+
+@media(max-width:414px) {
+  .download{
+    left: 0;
+    margin: 0px auto !important;
+    right: 0 !important;
+    width: 50px !important;
+    height: 50px !important;
+  }
+  canvas{
+    min-width: 340px;
+  }
+}

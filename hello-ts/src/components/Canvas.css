@@ -1,0 +1,45 @@
+.editIcon{
+  display: flex;
+  align-items: center;
+}
+.editText{
+  display: inline-grid;
+  padding: 8px;
+}
+.arrowIcon {
+  position: absolute;
+  top: 15px;
+  right: 15px; 
+}
+.mainContainer {
+  display:flex;
+  justify-content:center;
+}
+.zoomContainer {
+  border-radius: 20px;
+  box-shadow: rgb(203 201 201) 0px 0px 7px 2px;
+  padding:8px;
+  display:flex;
+  align-items: center;
+  margin-bottom:15px;
+}
+@media (max-width:414px) {
+  .arrowIcon {
+    top:auto;
+  }
+  .mainContainer {
+    justify-content: start;
+    margin-left:15px;
+  }
+  .editIcon{
+    align-items: start;
+    display: block !important;
+    margin: 15px 15px 0;
+  }
+  .editIcon > div{
+    float: right;
+  }
+  .editText{
+    display: flex;
+  }
+}

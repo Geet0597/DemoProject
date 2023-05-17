@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Welcome Challenger",
+    "content": "So... ready to accept the <b>Depix Frontend Challenge</b>?",
+    "next": "Yes!"
+  },
+  {
+    "title": "About the challenge",
+    "content": "<b>Hello Depix</b> is meant to be the next generation of online drawing apps. And you're the one responsible to make this a reality!",
+    "previous": "Plz take me back...",
+    "next": "Ok..?"
+  },
+  {
+    "title": "First things first...",
+    "content": "The dialog you are reading now hides a blank canvas. In order to prevent you from having the blank page (or canvas?) syndrome, here is a mockup that might inspire you.<br/><br/><a href=\"mockup.png\" target=\"_blank\"><img src=\"mockup.png\" style=\"width: 100%\" /></a>",
+    "footer": "<i>Psst... You can click on the image above to open it fullsize!</i>",
+    "next": "Looking good!",
+    "previous": "Why am I here already?"
+  },
+  {
+    "title": "Tools... tools everywhere!",
+    "content": "See the toolbars on the mockup? Well this is what you need to do. Implementing some of those tools will allow our users to draw on that blank canvas!<br/><br/>We recommend you to <b>start simple</b> with the '<i>Pen</i>' tool. Depending on how that goes, you can then move to the '<i>Eraser</i>' and '<i>Select</i>' tool. And then sky is the limit!",
+    "footer": "<i>We don't give a lot of details on what to implement on purpose. You are free to decide how you want to implement each tools.</i>",
+    "next": "Let's do this!",
+    "previous": "Blank page..."
+  },
+  {
+    "title": "Wow! Not so fast...",
+    "content": "<i>If a little is good, more must be better!</i> Right? Well maybe not!<br/><br/>For us at Depix, <b>quality</b> is the most important. So we expect from you <b>quality code</b>, <b>quality tests</b>, <b>quality documentation</b> and <b>quality UI</b> (among others).<br/><br/>It doesn't really matter if you cannot implement every single tools you see on the mockup. As long as they are well written...<br/><br/>But enough talking! Good luck and we hope you'll enjoy this challenge.",
+    "footer": "You can re-open these instructions by clicking on the big&nbsp;<span class=\"material-icons\">info</span>&nbsp;button.",
+    "previous": "What tools?",
+    "end": "At last..."
+  }
+]
